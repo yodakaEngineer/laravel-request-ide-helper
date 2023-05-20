@@ -1,6 +1,5 @@
 {
     "name": "yodaka/laravel-request-ide-helper",
-    "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -18,11 +17,10 @@
             "email": "engineeryodaka@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "php": "^7.4",
-        "illuminate/support": "^8.0",
-        "illuminate/console": "^8.0"
+        "php": "^7.4 | ^8.0",
+        "illuminate/support": "^8 | ^9 | ^10",
+        "illuminate/console": "^8 | ^9 | ^10"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
