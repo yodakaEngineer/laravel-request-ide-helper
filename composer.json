@@ -20,10 +20,19 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.4"
+        "php": "^7.4",
+        "illuminate/support": "^8.0",
+        "illuminate/console": "^8.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
         "phpunit/phpunit": "^9.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yodaka\\LaravelRequestIdeHelper\\LaravelRequestIdeHelperServiceProvider"
+            ]
+        }
     }
 }
